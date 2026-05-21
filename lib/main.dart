@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
-import 'screens/tugas2.dart'; 
+import 'database_helper.dart';
+import 'screens/main_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final db = await DatabaseHelper.instance.database;
+  await DatabaseHelper.instance.createTables(db);
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tugas Praktikum 4',
-      
-      home: const Tugas2Page(),
+      title: 'Manajemen Mahasiswa',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF009688)),
+        useMaterial3: true,
+      ),
+      home: const MainPage(),
     );
   }
 }
