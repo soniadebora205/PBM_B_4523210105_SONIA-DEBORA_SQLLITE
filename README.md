@@ -1,17 +1,24 @@
-# Tugas 06
+# PRAKTIKUM 6: DART WITH SQLITE 🚀
 
-A new Flutter project.
+- **Nama:** Sonia Debora Napitupulu  
+- **NPM:** 4523210105
+- **Mata Kuliah:** Pemrograman Berbasis Mobile (B)
+- **Dosen Pengampu:** Rizki Hesanada, S.Kom., M.Kom.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📝 TUGAS YANG DIBERIKAN: 
+Tugas utama yang diberikan adalah menghubungkan aplikasi dengan SQLite dan mengimplementasikan SQLite pada aplikasi CRUD (_Create, Read, Update, Delete_) manajemen mahasiswa.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🍎 HASIL AKHIR: 
+Adapun _page_ dari program ini adalah sebagai berikut:  
+1. Intro logo
+2. Halaman 'daftar mahasiswa'
+3. halaman 'tambah mahasiswa' (diakses melalui tombol tambah)
+4. halaman '_profile card_' mahasiswa (singkat)
+5. halaman 'biodata mahasiswa' (full)
+6. halaman 'edit mahasiswa'
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🖼️ ALUR TAMPILAN:
