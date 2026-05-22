@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'database_helper.dart';
-import 'screens/main_page.dart';
+import 'splash_screen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,8 +21,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF009688)),
         useMaterial3: true,
+        textTheme: GoogleFonts.loraTextTheme(),
       ),
-      home: const MainPage(),
+      home: const SplashScreen(),
     );
   }
 }
